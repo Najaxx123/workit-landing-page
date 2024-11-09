@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    /* border: red 1px solid; */
+}
+
+body {
+    color: white;
+}
+
+.header {
+    background-color:#24053E ;
+    border-radius:0% 0% 100% 100%;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mid-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    background-color: #44FFA1;
+    text-decoration: none;
+}
