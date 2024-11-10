@@ -5,6 +5,7 @@
 
 body {
     color: white;
+    background-color: aqua;
 }
 
 .header {
@@ -28,4 +29,39 @@ body {
 a {
     background-color: #44FFA1;
     text-decoration: none;
+    display: block;
+    color: #24053E;
+    font-weight: 700;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.white-rectangle {
+    position: absolute;
+    top: 500px; left: 500px;
+}
+
+.green-thing {
+    position: absolute;
+    top: 400px; left: 400px;
+}
+
+.white-and-violet {
+    position: absolute;
+    top: 400px; left: 400px;
+}
+
+.phone {
+    position: absolute;
+    top: 400px; left: 400px;
+}
+
+.white-mask {
+    position: absolute;
+    top: 400px; left: 400px;
+}
+
+.green-grafic {
+    position: absolute;
+    top: 400px; left: 400px;
 }
