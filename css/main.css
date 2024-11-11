@@ -27,7 +27,7 @@ body {
     align-items: center;
 }
 
-a {
+.first-a {
     background-color: #44FFA1;
     text-decoration: none;
     display: block;
@@ -93,13 +93,24 @@ a:hover {
 
 .footer-text {
     background-color: #24053E;
-    color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    padding: 160px;
+    align-content: space-between;
+    margin-right: 400px;
+    margin-bottom: 400px;
+    margin-left: 700px;
+    margin-top: 400px;
 }
 
+.second-a {
+    background-color: #44FFA1;
+    text-decoration: none;
+    display: block;
+    color: #24053E;
+    font-weight: 700;
+    padding: 8px;
+    margin-bottom: 16px;
+}
 
 
